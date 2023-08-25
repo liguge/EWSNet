@@ -24,11 +24,11 @@ Intelligent fault diagnosis of rolling bearings using deep learning-based method
 **Physics-informed Interpretable Wavelet Weight Initialization and Balanced Dynamic Adaptive Threshold for Intelligent Fault Diagnosis of Rolling Bearings**  
 Chao He^a,b^ , Hongmei Shi , ^a,b^Jin Si^c^ and Jianbo Li^a,b^
 
-^a^School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University, Beijing 100044, China 
+^a^ School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University, Beijing 100044, China 
 
-^b^Collaborative Innovation Center of Railway Traffic Safety, Beijing 100044, China 
+^b^ Collaborative Innovation Center of Railway Traffic Safety, Beijing 100044, China 
 
-^c^Beijing Institute of Control and Electronic Technology, Beijing 100038, China  
+^c^ Beijing Institute of Control and Electronic Technology, Beijing 100038, China  
 
 **Journal of Manufacturing Systems**
 
