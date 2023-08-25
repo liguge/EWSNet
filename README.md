@@ -19,16 +19,17 @@ Intelligent fault diagnosis of rolling bearings using deep learning-based method
 - **Balanced dynamic adaptive threshold is specially devised to improve the antinoise robustness of the model.**
 - **Normalization activation mapping is designed to visually reveal that Z-score can enhance the frequencydomain information of raw signals.**
 
+<div align="center"><img src="Fig/intro.png" alt="results" style="zoom:10%;" /></div>
 
 ## Paper
 **Physics-informed Interpretable Wavelet Weight Initialization and Balanced Dynamic Adaptive Threshold for Intelligent Fault Diagnosis of Rolling Bearings**  
-Chao He^a,b^ , Hongmei Shi , ^a,b^Jin Si^c^ and Jianbo Li^a,b^
+Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b</sup>, Jin Si<sup>c</sup> and Jianbo Li<sup>a,b</sup>
 
-^a^ School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University, Beijing 100044, China 
+<sup>a</sup>School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University, Beijing 100044, China 
 
-^b^ Collaborative Innovation Center of Railway Traffic Safety, Beijing 100044, China 
+<sup>b</sup>Collaborative Innovation Center of Railway Traffic Safety, Beijing 100044, China 
 
-^c^ Beijing Institute of Control and Electronic Technology, Beijing 100038, China  
+<sup>c</sup>Beijing Institute of Control and Electronic Technology, Beijing 100038, China  
 
 **Journal of Manufacturing Systems**
 
