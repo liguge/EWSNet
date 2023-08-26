@@ -43,6 +43,8 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 
 ![image](https://user-images.githubusercontent.com/19371493/180358950-fcb9b417-7306-4fc0-b99b-5952c59b941f.png)
 
+where $\alpha$ and $\eta$ are differentiable($\alpha  \in \left( {0,1} \right),\alpha  \ne 0,1$). When $\alpha$=0 or 1, Eq. respectively degenerates into hard threshold and soft threshold, and thus we can adjust $\alpha$ appropriately to make $y$ closer to the genuine wavelet coefficient.
+
 ## Example:
 
 
