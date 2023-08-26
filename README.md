@@ -37,7 +37,7 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 
 ![image](https://user-images.githubusercontent.com/19371493/180359513-b6fd1fb4-4c63-47ad-8d98-b8030d2ca529.png)
 
-## Balanced Dynamic Adaptive Thresholding
+## Balanced Dynamic Adaptive Threshold
 
 ![image](https://user-images.githubusercontent.com/19371493/190544070-b8a3a630-6fc4-48d4-9693-53253a40752f.png)
 
