@@ -45,6 +45,18 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 
 **where $\alpha$ and $\eta$ are differentiable($\alpha  \in \left( {0,1} \right),\alpha  \ne 0,1$). When $\alpha$=0 or 1, Eq. respectively degenerates into hard threshold and soft threshold, and thus we can adjust $\alpha$ appropriately to make $y$ closer to the genuine wavelet coefficient.**
 
+## Normalization Activation Mapping
+
+**Data normalization can accelerate the process of convergence. Also, Z-score makes CNN get better accuracy. Unlike experimental methods, we notice that Z-score enhances frequency-domain information of signals so that CNN can learn these features better.**
+
+**FAM illustrates the frequency-domain information by utilizing the weights of the classification layer and extracted features, but it can not reveal the influence of normalization methods. Therefore in NAM, the weight of the correct label is $1.0$, and the features are signals processed by the normalization methods and it can visualize which normalization method possesses more frequency-domain knowledge.**
+
+$$\gamma_{NAM}^c = \left\{ {\begin{array}{*{20}{c}}
+{{S_x}(w)}&{{l_{real}} = {l_{target}}}\\
+0&{otherwise}
+\end{array}} \right.$$
+where ${l_{real}}$ is the real label and  ${l_{target}}$ is the tested label.
+
 ## Example:
 
 
