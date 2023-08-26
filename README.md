@@ -52,6 +52,7 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 **FAM illustrates the frequency-domain information by utilizing the weights of the classification layer and extracted features, but it can not reveal the influence of normalization methods. Therefore in NAM, the weight of the correct label is $1.0$, and the features are signals processed by the normalization methods and it can visualize which normalization method possesses more frequency-domain knowledge.**
 
 ![4eb60742e697c828151434ed263b922](https://github.com/liguge/EWSNet_new/assets/19371493/3e9cddd7-3904-466a-8a59-823f6fea3400)
+
 where ${l_{real}}$ is the real label and  ${l_{target}}$ is the tested label.
 
 ## Example:
