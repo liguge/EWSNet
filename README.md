@@ -68,7 +68,7 @@ class CNNNet(nn.Module):
         for m in self.modules():
             if isinstance(m, nn.Conv1d):
                 if m.kernel_size == (60,):
-                    m.weight.data = fast(out_channels=64, kernel_size=60, frequency=100000, eps=0.2, mode='sigmoid').forward()
+                    m.weight.data = fast(out_channels=64, kernel_size=60, eps=0.2, mode='sigmoid').forward()
                     nn.init.constant_(m.bias.data, 0.0)
 
     def forward(self, x):
