@@ -55,6 +55,7 @@ $$\gamma_{NAM}^c = \left\{ {\begin{array}{*{20}{c}}
 {{S_x}(w)}&{{l_{real}} = {l_{target}}}\\
 0&{otherwise}
 \end{array}} \right.$$
+
 where ${l_{real}}$ is the real label and  ${l_{target}}$ is the tested label.
 
 ## Example:
