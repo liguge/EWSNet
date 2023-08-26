@@ -29,7 +29,7 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 
 <sup>b</sup>Collaborative Innovation Center of Railway Traffic Safety, Beijing 100044, China 
 
-<sup>c</sup>Beijing Institute of Control and Electronic Technology, Beijing 100038, China  
+<sup>c</sup>Key laboratory of information system and technology，Beijing institute of control and electronic technology, Beijing 100038, China  
 
 **Journal of Manufacturing Systems**
 
