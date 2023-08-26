@@ -17,7 +17,7 @@ Intelligent fault diagnosis of rolling bearings using deep learning-based method
 - **An enhanced wavelet convolution kernel is designed to improve the trainability, in which a scale smoothing factor is employed to acquire rational wavelet scales.**
 - **A plug-and-play and physics-informed wavelet weight initialization is proposed to construct an interpretable convolution kernel, which makes the diagnosis interpretable.**
 - **Balanced dynamic adaptive threshold is specially devised to improve the antinoise robustness of the model.**
-- **Normalization activation mapping is designed to visually reveal that Z-score can enhance the frequency-domain information of raw signals.**
+- **Normalization activation mapping is designed to visually reveal that Z-score can enhance the frequency$-$domain information of raw signals.**
 
 
 ## Paper
