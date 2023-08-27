@@ -6,7 +6,7 @@
 
 [NEWS!]This paper has been accepted by **<font color="blue">[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems)</font>**!
 
-[NOTE!!]The code will be gradually and continuously opened! **Some class names in the code have not yet been sorted out, and will continue to be sorted out.**
+[NOTE!!]The code will be gradually and continuously opened!
 
 ## Brief introduction  
 Intelligent fault diagnosis of rolling bearings using deep learning-based methods has made unprecedented progress. However, there is still little research on weight initialization and the threshold setting for noise reduction. An innovative deep triple-stream network called EWSNet is proposed, which presents a wavelet weight initialization method and a balanced dynamic adaptive threshold algorithm. Initially, an enhanced wavelet basis function is designed, in which a scale smoothing factor is defined to acquire more rational wavelet scales. Next, a plug-and-play wavelet weight initialization for deep neural networks is proposed, which utilizes physics-informed wavelet prior knowledge and showcases stronger applicability. Furthermore, a balanced dynamic adaptive threshold is established to enhance the noise-resistant robustness of the model. Finally, normalization activation mapping is devised to reveal the effectiveness of Z-score from a visual perspective rather than experimental results. The validity and reliability of EWSNet are demonstrated through four data sets under the conditions of constant and fluctuating speeds.
@@ -23,7 +23,7 @@ Intelligent fault diagnosis of rolling bearings using deep learning-based method
 ## Paper
 **Physics-informed Interpretable Wavelet Weight Initialization and Balanced Dynamic Adaptive Threshold for Intelligent Fault Diagnosis of Rolling Bearings**  
 
-Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianbo Li<sup>a,b</sup>
+Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and Jianbo Li<sup>a,b</sup>
 
 <sup>a</sup>School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University, Beijing 100044, China 
 
@@ -37,7 +37,7 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 
 ![image](https://user-images.githubusercontent.com/19371493/180359513-b6fd1fb4-4c63-47ad-8d98-b8030d2ca529.png)
 
-## Balanced Dynamic Adaptive Threshold
+## Balanced Dynamic Adaptive Thresholding
 
 ![image](https://user-images.githubusercontent.com/19371493/190544070-b8a3a630-6fc4-48d4-9693-53253a40752f.png)
 
@@ -51,8 +51,10 @@ Chao He<sup>a,b</sup>, Hongmei Shi<sup>a,b,*</sup>, Jin Si<sup>c</sup> and Jianb
 
 **FAM illustrates the frequency-domain information by utilizing the weights of the classification layer and extracted features, but it can not reveal the influence of normalization methods. Therefore in NAM, the weight of the correct label is $1.0$, and the features are signals processed by the normalization methods and it can visualize which normalization method possesses more frequency-domain knowledge.**
 
-![4eb60742e697c828151434ed263b922](https://github.com/liguge/EWSNet_new/assets/19371493/3e9cddd7-3904-466a-8a59-823f6fea3400)
-
+$$\gamma_{NAM}^c = \left\{ {\begin{array}{*{20}{c}}
+{{S_x}(w)}&{{l_{real}} = {l_{target}}}\\
+0&{otherwise}
+\end{array}} \right.$$
 where ${l_{real}}$ is the real label and  ${l_{target}}$ is the tested label.
 
 ## Example:
@@ -93,6 +95,11 @@ class CNNNet(nn.Module):
         x = F.relu(self.fc1(x))
         x = self.fc2(x)
         return x
+   
+   
+    
+
+
 ```
 
 
@@ -102,4 +109,13 @@ class CNNNet(nn.Module):
 (Please wait for updating ...)
 
 ## Ackowledgements
-(Please wait for updating ...)
+The authors are grateful for the supports of Funded by Special Fund for Fundamental Research Funds for the Central Universities of China (Technology Leading Talent Team Project)(2022JBXT005), the National Natural Science Foundation of China (No. 52272429).
+
+## References
+
+- von Rueden L, Mayer S, Beckh K, Georgiev B, Giesselbach S, Heese R, et al Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Trans Knowl Data Eng 2023;35(1):614–633.https://doi.org/10.1109/TKDE.2021.3079836.
+
+- Vollert S, Atzmueller M, Theissler A. Interpretable Machine Learning: A brief survey from the predictive maintenance perspective. In: 26th IEEE International Conference on Emerging Technologies and Factory Automation, ETFA 2021, Vasteras, Sweden, September 7-10, 2021 IEEE; 2021. p. 1–8. https://doi.org/10.1109/ETFA45728.2021.9613467.
+- Li T, Zhao Z, Sun C, Cheng L, Chen X, Yan R, et al WaveletKernelNet: An Interpretable Deep Neural Network for Industrial Intelligent Diagnosis. IEEE Trans Syst Man Cybern Syst 2022;52(4):2302–2312. https://doi.org/10.1109/TSMC.2020.3048950.
+- Zhao M, Zhong S, Fu X, Tang B, Pecht M. Deep Residual Shrinkage Networks for Fault Diagnosis. IEEE Trans Industr Inform 2020;16(7):4681–4690. https://doi.org/10.1109/TII.2019.2943898.
+- Kim MS, Yun JP, Park P. An Explainable Neural Network for Fault Diagnosis With a Frequency Activation Map. IEEE Access 2021;9:98962–98972. https://doi.org/10.1109/ACCESS.2021.3095565.
