@@ -33,6 +33,10 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 
 **Journal of Manufacturing Systems**
 
+## EWSNet
+
+
+
 ## Wavelet initialization
 
 ![image](https://user-images.githubusercontent.com/19371493/180359513-b6fd1fb4-4c63-47ad-8d98-b8030d2ca529.png)
