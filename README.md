@@ -1,6 +1,6 @@
 # Physics-informed Interpretable Wavelet Weight Initialization and Balanced Dynamic Adaptive Threshold for Intelligent Fault Diagnosis of Rolling Bearings
 
-# Updating!（代码一些类名还没整理完毕，会持续整理）
+# Updating!（Some class names in the code have not yet been sorted out, and will continue to be sorted out.）
 
 [Sorry]The upload of the code needs to 1-2 weeks, thank you very much for your attention!
 
