@@ -34,9 +34,7 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 **Journal of Manufacturing Systems**
 
 ## EWSNet
-![image](https://github.com/liguge/EWSNet_new/assets/19371493/02f02651-f6fe-4cc5-ba8f-bf0b02080b9a)
-
-
+![image](https://github.com/liguge/EWSNet_new/assets/19371493/8296a3a9-ff68-4857-8e59-f7f828245101)
 
 ## Wavelet initialization
 
@@ -44,7 +42,7 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 
 ## Balanced Dynamic Adaptive Thresholding
 
-![image](https://user-images.githubusercontent.com/19371493/190544070-b8a3a630-6fc4-48d4-9693-53253a40752f.png)
+![image](https://github.com/liguge/EWSNet_new/assets/19371493/c94d06ef-7604-43d8-886c-b592acb003ab)
 
 ![image](https://user-images.githubusercontent.com/19371493/180358950-fcb9b417-7306-4fc0-b99b-5952c59b941f.png)
 
@@ -56,7 +54,7 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 
 **FAM illustrates the frequency-domain information by utilizing the weights of the classification layer and extracted features, but it can not reveal the influence of normalization methods. Therefore in NAM, the weight of the correct label is $1.0$, and the features are signals processed by the normalization methods and it can visualize which normalization method possesses more frequency-domain knowledge.**
 
-![image-20230827160643144](https://github.com/liguge/EWSNet_new/assets/19371493/0db9fd0b-6428-4328-98bc-ce1622334aa1)
+![image](https://github.com/liguge/EWSNet_new/assets/19371493/ddbc692d-74c6-4764-a775-260c44837473)
 
 where ${l_{real}}$ is the real label and  ${l_{target}}$ is the tested label.
 
@@ -98,11 +96,6 @@ class CNNNet(nn.Module):
         x = F.relu(self.fc1(x))
         x = self.fc2(x)
         return x
-   
-   
-    
-
-
 ```
 
 
