@@ -42,9 +42,9 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 
 ## Balanced Dynamic Adaptive Thresholding
 
-![image](https://github.com/liguge/EWSNet_new/assets/19371493/c94d06ef-7604-43d8-886c-b592acb003ab)
+![image](https://github.com/liguge/EWSNet_new/assets/19371493/6df0c396-841c-4c3c-b098-69765de18bf5)
 
-![image](https://user-images.githubusercontent.com/19371493/180358950-fcb9b417-7306-4fc0-b99b-5952c59b941f.png)
+![image](https://github.com/liguge/EWSNet_new/assets/19371493/c94d06ef-7604-43d8-886c-b592acb003ab)
 
 **where $\alpha$ and $\eta$ are differentiable($\alpha  \in \left( {0,1} \right),\alpha  \ne 0,1$). When $\alpha$=0 or 1, Eq. respectively degenerates into hard threshold and soft threshold, and thus we can adjust $\alpha$ appropriately to make $y$ closer to the genuine wavelet coefficient.**
 
