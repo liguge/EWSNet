@@ -2,11 +2,6 @@ import torch
 import torch.nn as nn
 from math import pi
 import torch.nn.functional as F
-# def setup_seed(seed):
-#     torch.manual_seed(seed)
-#     torch.cuda.manual_seed_all(seed)
-#     np.random.seed(seed)
-#     torch.backends.cudnn.deterministic = True
 
 
 '''
@@ -93,34 +88,16 @@ class Laplace_fastv3(nn.Module):
         filter = Laplace(p1).view(self.out_channels, 1, self.kernel_size)  # (70,1,85)
         return filter
 
-# class Laplace_fastv31(nn.Module):
-#
-#     def __init__(self, out_channels, kernel_size, eps=0.1):
-#         super(Laplace_fastv31, self).__init__()
-#         self.out_channels = out_channels
-#         self.kernel_size = kernel_size
-#         self.eps = eps
-#         self.a_ = torch.linspace(1, out_channels, out_channels).view(-1, 1)
-#         self.b_ = torch.linspace(0, out_channels, out_channels).view(-1, 1)
-#         self.time_disc = torch.linspace(0, 1, steps=int(self.kernel_size))
-#
-#     def forward(self):
-#         p1 = (self.time_disc - self.b_) / (self.a_)
-#         filter = Laplace(p1).view(self.out_channels, 1, self.kernel_size)  # (70,1,85)
-#         return filter
+
 '''
 小波核初始化
 '''
 
 
 def Morlet(p, c):
-    # y = c * torch.exp((-torch.pow(p, 2) / 2).sigmoid()) * torch.cos(5 * p)  #
-   # return c * torch.exp((-torch.pow(p, 2) / 2).sigmoid()) * torch.cos(5 * p)
+
     return c * torch.exp((-torch.pow(p, 2) / 2)) * torch.cos(5 * p)
-   #  return c * torch.exp((-torch.pow(p, 2) / 2).sigmoid()) * torch.cos(5 * p)
-   #  return c * torch.exp((-torch.pow(p, 2) / 2).tanh()) * torch.cos(5 * p)
-    # return c * torch.exp((2/pi)*((-torch.pow(p, 2) / 2).atan())) * torch.cos(5 * p)
-    # return c * torch.exp(F.softmax(-torch.pow(p, 2) / 2, dim=-1)) * torch.cos(5 * p)
+
 
 
 class Morlet_fast(nn.Module):
@@ -155,11 +132,7 @@ Mexh小波卷积核
 def Mexh(p):
     # p = 0.04 * p  # 将时间转化为在[-5,5]这个区间内
     # y = (2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp((-torch.pow(p, 2) / 2))
-    # return ((2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp((-torch.pow(p, 2) / 2)))
-    # return ((2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp((-torch.pow(p, 2) / 2).sigmoid()))
-    # return ((2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp((-torch.pow(p, 2) / 2).tanh()))
-    # return ((2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp((2/pi)*((-torch.pow(p, 2) / 2).atan())))
-    # return ((2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp(F.softmax(-torch.pow(p, 2) / 2, dim=-1)))
+
     return (2/pi)*((2 / pow(3, 0.5) * (pow(pi, -0.25))) * (1 - torch.pow(p, 2)) * torch.exp((-torch.pow(p, 2) / 2))).atan()
 
 class Mexh_fast(nn.Module):
@@ -198,10 +171,7 @@ def Gaussian(p):
     # y = -2 / (3 ** (1 / 2)) * (-1 + 2 * p ** 2) * y
     # y = -((1 / (pow(2 * pi, 0.5))) * p * torch.exp((-torch.pow(p, 2)) / 2))
     return -((1 / (pow(2 * pi, 0.5))) * p * (torch.exp(((-torch.pow(p, 2)) / 2))))
-    # return -((1 / (pow(2 * pi, 0.5))) * p * (torch.exp(((-torch.pow(p, 2)) / 2).sigmoid())))
-    # return -((1 / (pow(2 * pi, 0.5))) * p * (torch.exp(((-torch.pow(p, 2)) / 2).tanh())))
-    # return -((1 / (pow(2 * pi, 0.5))) * p * (torch.exp((2/pi)*(((-torch.pow(p, 2)) / 2).atan()))))
-    # return -((1 / (pow(2 * pi, 0.5))) * p * (torch.exp(F.softmax((-torch.pow(p, 2)) / 2, dim=-1))))
+
 
 
 
@@ -288,6 +258,8 @@ class Sin_fast(nn.Module):
         filter = torch.cat([Shannon_left, Shannon_right], dim=1).view(self.out_channels, 1,
                                                                       self.kernel_size)  # 40x1x250
         return filter
+
+
 if __name__ == '__main__':
     import numpy as np
     import matplotlib.pyplot as plt
