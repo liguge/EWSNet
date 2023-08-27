@@ -34,6 +34,7 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 **Journal of Manufacturing Systems**
 
 ## EWSNet
+![image](https://github.com/liguge/EWSNet_new/assets/19371493/02f02651-f6fe-4cc5-ba8f-bf0b02080b9a)
 
 
 
