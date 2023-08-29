@@ -109,7 +109,7 @@ The authors are grateful for the supports of Funded by Special Fund for Fundamen
 
 ## References
 
-- von Rueden L, Mayer S, Beckh K, Georgiev B, Giesselbach S, Heese R, et al Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Trans Knowl Data Eng 2023;35(1):614–633.https://doi.org/10.1109/TKDE.2021.3079836
+- von Rueden L, Mayer S, Beckh K, Georgiev B, Giesselbach S, Heese R, et al Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Trans Knowl Data Eng 2023;35(1):614–633. https://doi.org/10.1109/TKDE.2021.3079836
         
         
         
