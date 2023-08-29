@@ -89,7 +89,7 @@ class Net(nn.Module):
         x = self.p1_0(x)
         p1 = self.p1_3(self.p1_2(self.p1_1(x)))
         p2 = self.p2_6(self.p2_5(self.p2_4(self.p2_3(self.p2_2(self.p2_1(x))))))
-        x = self.p3_2(self.p3_1(self.p3_0(x)))
+        x = self.p3_2(self.p3_1(x + self.p3_0(x)))
         x = torch.add(x, torch.add(p1, p2))
         x = self.p3_3(x).squeeze()
         x = self.p4(x) 
