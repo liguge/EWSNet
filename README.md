@@ -111,13 +111,23 @@ The authors are grateful for the supports of Funded by Special Fund for Fundamen
 
 - von Rueden L, Mayer S, Beckh K, Georgiev B, Giesselbach S, Heese R, et al Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Trans Knowl Data Eng 2023;35(1):614–633.https://doi.org/10.1109/TKDE.2021.3079836
         
-        .
+        
+        
+        
 
 - Vollert S, Atzmueller M, Theissler A. Interpretable Machine Learning: A brief survey from the predictive maintenance perspective. In: 26th IEEE International Conference on Emerging Technologies and Factory Automation, ETFA 2021, Vasteras, Sweden, September 7-10, 2021 IEEE; 2021. p. 1–8. https://doi.org/10.1109/ETFA45728.2021.9613467
         
-        .
+        
+        
+        
 - Li T, Zhao Z, Sun C, Cheng L, Chen X, Yan R, et al WaveletKernelNet: An Interpretable Deep Neural Network for Industrial Intelligent Diagnosis. IEEE Trans Syst Man Cybern Syst 2022;52(4):2302–2312. https://doi.org/10.1109/TSMC.2020.3048950
         
-        .
-- Zhao M, Zhong S, Fu X, Tang B, Pecht M. Deep Residual Shrinkage Networks for Fault Diagnosis. IEEE Trans Industr Inform 2020;16(7):4681–4690. https://doi.org/10.1109/TII.2019.2943898.
-- Kim MS, Yun JP, Park P. An Explainable Neural Network for Fault Diagnosis With a Frequency Activation Map. IEEE Access 2021;9:98962–98972. https://doi.org/10.1109/ACCESS.2021.3095565.
+        
+        
+        
+- Zhao M, Zhong S, Fu X, Tang B, Pecht M. Deep Residual Shrinkage Networks for Fault Diagnosis. IEEE Trans Industr Inform 2020;16(7):4681–4690. https://doi.org/10.1109/TII.2019.2943898
+        
+        
+- Kim MS, Yun JP, Park P. An Explainable Neural Network for Fault Diagnosis With a Frequency Activation Map. IEEE Access 2021;9:98962–98972. https://doi.org/10.1109/ACCESS.2021.3095565
+        
+        
