@@ -102,7 +102,23 @@ class CNNNet(nn.Module):
 
 ## Citation
 
-(Please wait for updating ...)
+```html
+@article{HE,  
+title = {Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings},  
+journal = {Journal of Manufacturing Systems},  
+volume = {?},  
+pages = {?-?},  
+year = {2023},  
+issn = {1878-6642},  
+doi = {https://doi.org/10.1016/j.jmsy.2023.08.014},  
+author = {Chao He and Hongmei Shi and Jin Si and Jianbo Li} 
+```
+
+```html
+C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems ? (2023) ?–?, https://doi.org/10.1016/j.jmsy.2023.08.014.
+```
+
+
 
 ## Ackowledgements
 The authors are grateful for the supports of Funded by Special Fund for Fundamental Research Funds for the Central Universities of China (Technology Leading Talent Team Project)(2022JBXT005), the National Natural Science Foundation of China (No. 52272429).
@@ -119,15 +135,15 @@ The authors are grateful for the supports of Funded by Special Fund for Fundamen
         
         
         
-        
+  
 - Li T, Zhao Z, Sun C, Cheng L, Chen X, Yan R, et al WaveletKernelNet: An Interpretable Deep Neural Network for Industrial Intelligent Diagnosis. IEEE Trans Syst Man Cybern Syst 2022;52(4):2302–2312. https://doi.org/10.1109/TSMC.2020.3048950
         
         
         
-        
+  
 - Zhao M, Zhong S, Fu X, Tang B, Pecht M. Deep Residual Shrinkage Networks for Fault Diagnosis. IEEE Trans Industr Inform 2020;16(7):4681–4690. https://doi.org/10.1109/TII.2019.2943898
         
-        
+  
 - Kim MS, Yun JP, Park P. An Explainable Neural Network for Fault Diagnosis With a Frequency Activation Map. IEEE Access 2021;9:98962–98972. https://doi.org/10.1109/ACCESS.2021.3095565
         
         
