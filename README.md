@@ -115,9 +115,7 @@ author = {Chao He and Hongmei Shi and Jin Si and Jianbo Li}
 ```
 
 ```html
-C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems ? (2023) ?–?, https://doi.org/10.1016/j.jmsy.2023.08.014
-        
-        .
+C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems ? (2023) ?–?, https://doi.org/10.1016/j.jmsy.2023.08.014.
 ```
 
 
@@ -134,8 +132,12 @@ The authors are grateful for the supports of the Fundamental Research Funds for 
         
         
         
+        
+        
 
 - Vollert S, Atzmueller M, Theissler A. Interpretable Machine Learning: A brief survey from the predictive maintenance perspective. In: 26th IEEE International Conference on Emerging Technologies and Factory Automation, ETFA 2021, Vasteras, Sweden, September 7-10, 2021 IEEE; 2021. p. 1–8. https://doi.org/10.1109/ETFA45728.2021.9613467
+        
+        
         
         
         
@@ -148,8 +150,12 @@ The authors are grateful for the supports of the Fundamental Research Funds for 
         
         
         
+        
+        
   
 - Zhao M, Zhong S, Fu X, Tang B, Pecht M. Deep Residual Shrinkage Networks for Fault Diagnosis. IEEE Trans Industr Inform 2020;16(7):4681–4690. https://doi.org/10.1109/TII.2019.2943898
+        
+        
         
         
         
