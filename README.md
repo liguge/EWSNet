@@ -1,5 +1,9 @@
 # Physics-informed Interpretable Wavelet Weight Initialization and Balanced Dynamic Adaptive Threshold for Intelligent Fault Diagnosis of Rolling Bearings
 
+The pytorch implementation of the paper [Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings](https://doi.org/10.1016/j.jmsy.2023.08.014)
+
+Link: https://authors.elsevier.com/c/1hiN~-MM8TgSi   (**50 days' free access**)
+
 # Updating!
 
 [Sorry]The upload of the code needs to 1-2 weeks, thank you very much for your attention!
@@ -7,6 +11,8 @@
 [NEWS!]This paper has been accepted by **<font color="blue">[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems)</font>**!
 
 [NOTE!!]The code will be gradually and continuously opened!
+
+
 
 ## Brief introduction  
 Intelligent fault diagnosis of rolling bearings using deep learning-based methods has made unprecedented progress. However, there is still little research on weight initialization and the threshold setting for noise reduction. An innovative deep triple-stream network called EWSNet is proposed, which presents a wavelet weight initialization method and a balanced dynamic adaptive threshold algorithm. Initially, an enhanced wavelet basis function is designed, in which a scale smoothing factor is defined to acquire more rational wavelet scales. Next, a plug-and-play wavelet weight initialization for deep neural networks is proposed, which utilizes physics-informed wavelet prior knowledge and showcases stronger applicability. Furthermore, a balanced dynamic adaptive threshold is established to enhance the noise-resistant robustness of the model. Finally, normalization activation mapping is devised to reveal the effectiveness of Z-score from a visual perspective rather than experimental results. The validity and reliability of EWSNet are demonstrated through four data sets under the conditions of constant and fluctuating speeds.
@@ -106,8 +112,8 @@ class CNNNet(nn.Module):
 @article{HE,  
 title = {Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings},  
 journal = {Journal of Manufacturing Systems},  
-volume = {?},  
-pages = {?-?},  
+volume = {70},  
+pages = {579-592},  
 year = {2023},  
 issn = {1878-6642},  
 doi = {https://doi.org/10.1016/j.jmsy.2023.08.014},  
@@ -115,7 +121,7 @@ author = {Chao He and Hongmei Shi and Jin Si and Jianbo Li}
 ```
 
 ```html
-C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems ? (2023) ?–?, https://doi.org/10.1016/j.jmsy.2023.08.014
+C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems 70 (2023) 579-592, https://doi.org/10.1016/j.jmsy.2023.08.014
         
         .
 ```
