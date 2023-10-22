@@ -121,9 +121,7 @@ author = {Chao He and Hongmei Shi and Jin Si and Jianbo Li}
 ```
 
 ```html
-C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems 70 (2023) 579-592, https://doi.org/10.1016/j.jmsy.2023.08.014
-        
-        .
+C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems 70 (2023) 579-592, (https://doi.org/10.1016/j.jmsy.2023.08.014)[https://doi.org/10.1016/j.jmsy.2023.08.014].
 ```
 
 
@@ -134,6 +132,8 @@ The authors are grateful for the supports of the Fundamental Research Funds for 
 ## References
 
 - von Rueden L, Mayer S, Beckh K, Georgiev B, Giesselbach S, Heese R, et al Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Trans Knowl Data Eng 2023;35(1):614–633. https://doi.org/10.1109/TKDE.2021.3079836
+        
+        
         
         
         
@@ -155,6 +155,8 @@ The authors are grateful for the supports of the Fundamental Research Funds for 
         
         
         
+        
+        
   
 - Li T, Zhao Z, Sun C, Cheng L, Chen X, Yan R, et al WaveletKernelNet: An Interpretable Deep Neural Network for Industrial Intelligent Diagnosis. IEEE Trans Syst Man Cybern Syst 2022;52(4):2302–2312. https://doi.org/10.1109/TSMC.2020.3048950
         
@@ -166,8 +168,12 @@ The authors are grateful for the supports of the Fundamental Research Funds for 
         
         
         
+        
+        
   
 - Zhao M, Zhong S, Fu X, Tang B, Pecht M. Deep Residual Shrinkage Networks for Fault Diagnosis. IEEE Trans Industr Inform 2020;16(7):4681–4690. https://doi.org/10.1109/TII.2019.2943898
+        
+        
         
         
         
