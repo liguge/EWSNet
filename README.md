@@ -120,7 +120,7 @@ doi = {https://doi.org/10.1016/j.jmsy.2023.08.014},
 author = {Chao He and Hongmei Shi and Jin Si and Jianbo Li} 
 ```
 
-C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems 70 (2023) 579-592, (https://doi.org/10.1016/j.jmsy.2023.08.014)[https://doi.org/10.1016/j.jmsy.2023.08.014].
+C. He, H. Shi, J. Si, J. Li, Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings, Journal of Manufacturing Systems 70 (2023) 579-592, https://doi.org/10.1016/j.jmsy.2023.08.014.
 
 
 
