@@ -2,16 +2,11 @@
 
 The pytorch implementation of the paper [Physics-informed interpretable wavelet weight initialization and balanced dynamic adaptive threshold for intelligent fault diagnosis of rolling bearings](https://doi.org/10.1016/j.jmsy.2023.08.014)
 
-Link: https://authors.elsevier.com/c/1hiN~-MM8TgSi   (**50 days' free access**)
 
 # Updating!
 
-[Sorry]The upload of the code needs to 1-2 weeks, thank you very much for your attention!
 
 [NEWS!]This paper has been accepted by **<font color="blue">[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems)</font>**!
-
-[NOTE!!]The code will be gradually and continuously opened!
-
 
 
 ## Brief introduction  
