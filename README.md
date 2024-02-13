@@ -32,7 +32,7 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Jin Si<sup>c</sup> and J
 
 <sup>c</sup>Key laboratory of information system and technology, Beijing institute of control and electronic technology, Beijing 100038, China  
 
-**[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems)**
+**[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems/vol/70/suppl/C)**
 
 ## EWSNet
 ![image](https://github.com/liguge/EWSNet_new/assets/19371493/8296a3a9-ff68-4857-8e59-f7f828245101)
