@@ -6,7 +6,7 @@ The pytorch implementation of the paper [Physics-informed interpretable wavelet 
 # Updating!
 
 
-[NEWS!]This paper has been accepted by **<font color="blue">[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems)</font>**!
+[NEWS!]This paper has been accepted by **<font color="blue">[Journal of Manufacturing Systems](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems/vol/70/suppl/C)</font>**!
 
 
 ## Brief introduction  
