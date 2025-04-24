@@ -69,7 +69,7 @@ class Net(nn.Module):
     def _initialize_weights(self):
         for m in self.modules():
             if isinstance(m, nn.Conv1d):
-                if m.kernel_size == (500,):
+                if m.kernel_size == (250,):
                     m.weight.data = fast(out_channels=64, kernel_size=250).forward()
                     nn.init.constant_(m.bias.data, 0.0)
                 else:
