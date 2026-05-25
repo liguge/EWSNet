@@ -187,4 +187,5 @@ The authors are grateful for the supports of the Fundamental Research Funds for 
   - **Chao He**
   - **chaohe#bjtu.edu.cn (please replace # by @)**
   
-  ​      
+  ​
+  [![Hits](https://hits.sh/github.com/github.com/liguge/EWSNet.svg?label=Views&color=0891b2)](https://hits.sh/github.com/liguge/EWSNet/)
